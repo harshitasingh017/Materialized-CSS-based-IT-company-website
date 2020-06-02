@@ -26,21 +26,29 @@
         background: url(images/cover.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 1000px;
+        min-height: 700px;
       }
         
         .content h5{
-            font-size: 70px;
+            font-size: 60px;
             padding-top: 150px;
             
         }
         
-        .learnmore{
-            position: relative;
-            padding-left: 600px;
-            
+       .card-content .card-title{
+            font-weight: 500;
+           
         }
         
+        .services h5{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        
+        .card{
+            height: 250px;
+        }
+       
         @media screen and (max-width: 670px) {
         header {
           min-height: 500px;
@@ -79,15 +87,67 @@
             <div class="content">
                 <h5 class="center-align white-text lighten-4">Your Business Needs<br>Our Software Solutions </h5>
             </div>
-            <div class="learnmore">
-            <button class="btn-large waves-effect waves-dark grey lighten-2 black-text">Learn More</button>
-          </div>
         </header>
+     
         
+        
+        
+        
+        <section class="services">
+        <div class="container">
+    <h5 class=" center-align">Full-cycle services that cover every aspect of software engineering.</h5>
+    <div class="row">
+      <div class="col s12 l4 center-align">
+        <div class="card">
+          <div class="card-icon indigo">
+            <i class=" large material-icons">desktop_windows</i>
+          </div>
+           
+            <div class="card-content">
+            <span class="card-title center-align ">Web Development</span>
+            <p>Productive & engaging web solutions for smarter work and improved customer service.</p>
+          </div>
+            
+          
+        </div>
+      </div>
+       <div class="col s12 l4 center-align">
+        <div class="card">
+          <div class="card-icon orange">
+            <i class=" large material-icons">android</i>
+          </div>
+          <div class="card-content">
+            <span class="card-title center-align">Android Development</span>
+            <p>UI and UX are highly important for the success of any app. Our Android app designers and developers ensure excellent UI designs to enhance user experience.</p>
+          </div>
+        </div>
+      </div>
+        
+             <div class="col s12 l4 center-align">
+        <div class="card">
+          <div class="card-icon green">
+            <i class="large material-icons">assessment</i>
+          </div>
+          <div class="card-content">
+            <span class="card-title center-align">Digital Mrketing</span>
+            <p>Our well-planned strategized solutions will help to convert you to happy customers thus effectively growing your brand online.</p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+        
+            
+</section> 
         
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script>$(document).ready(function(){
+    $('.sidenav').sidenav();
+        });</script>
+         
     </body>
 </html>
