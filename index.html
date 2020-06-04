@@ -22,16 +22,11 @@
     <title>Materialized CSS Website</title>
     
     <style>
-      header {
-        background: url(images/cover.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 700px;
-      }
+     
         
         .content h5{
             font-size: 60px;
-            padding-top: 150px;
+            
             
         }
         
@@ -65,7 +60,6 @@
             font-size: 22px;
             font-family: cursive;
         }
-      
         .para1{
             font-size: 25px;
             padding-bottom: 30px;
@@ -84,7 +78,37 @@
         
         <!-- navbar -->
         <header>
-            <nav class="nav-wrapper transparent">
+            <div class="carousel carousel-slider" data-indicators="true">
+    <div class="carousel-item red lighten-2 white-text" href="#one!">
+        <img src="images/back1.jpg">
+      <div class="container">
+        <h1 class="white-text">Materialize Carousel bckscjbsjchhch</h1>
+          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
+      </div>  
+    </div>
+    <div class="carousel-item amber darken-2 white-text" href="#two!">
+        <img src="images/back2.jpg">
+      <div class="container">
+        <h1 class="white-text">Materialize Carousel  bcdcdibc  bckscjbsjchhch</h1>
+          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
+      </div>  
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+        <img src="images/back3.jpg">
+      <div class="container">
+        <h1 class="white-text">Materialize Carousel  three bckscjbsjchhch</h1>
+          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
+      </div>  
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+        <img src="images/back4.jpg">
+      <div class="container">
+        <h1 class="white-text">Materialize Carousel  four bckscjbsjchhch</h1>
+          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
+      </div>  
+      </div> 
+        
+         <nav class="navbar-fixed transparent">
             <div class="container">
                 <a href="#" class="brand-logo">Materialized</a> 
                 <a href="#" class="sidenav-trigger" data-target="mobile-menu">
@@ -94,10 +118,8 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Approach</a></li>
                     <li><a href="#">Methodology</a></li>
-                    <li><a href="#">Contact</a></li>
-                   
+                    <li><a href="#">Contact</a></li> 
                 </ul>
-                
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                 <li><a href="#">Services</a></li>
                     <li><a href="#">Approach</a></li>
@@ -106,54 +128,13 @@
                 </ul>
             </div>
             </nav>
-            <div class="content">
-                <h5 class="center-align white-text lighten-4">Your Business Needs<br>Our Software Solutions </h5>
-            </div>
+    </div>
         </header>
         
-        <!----carousel---->
-        
-       
-        
-        <section class="black">
-  <div class="carousel carousel-slider" data-indicators="true">
-    <div class="carousel-fixed-item">
-      <div class="container">
-        <h1 class="white-text">Materialize Carousel</h1>
-        <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
-      </div>
-    </div>
-    <div class="carousel-item red lighten-2 white-text" href="#one!">
-      <div class="container">
-        <h2>First Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>  
-    </div>
-    <div class="carousel-item amber darken-2 white-text" href="#two!">
-      <div class="container">
-        <h2>Second Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>  
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <div class="container">
-        <h2>Third Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>  
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <div class="container">
-        <h2>Fourth Slide</h2>
-        <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
-      </div>  
-    </div>
-  </div>
-</section>
- <!----services----> 
-        
+ <!----services---->  
         <section class="services">
         <div class="container">
-    <h5 class=" center-align">Full-cycle services that cover every aspect of software engineering.</h5>
+    <h5 class=" center-align pink-text darken-3">Full-cycle services that cover every aspect of software engineering.</h5>
     <div class="row">
       <div class="col s12 l4 center-align">
         <div class="card">
@@ -178,8 +159,7 @@
           </div>
         </div>
       </div>
-        
-             <div class="col s12 l4 center-align">
+     <div class="col s12 l4 center-align">
         <div class="card">
           <div class="card-icon green">
             <i class="large material-icons">assessment</i>
@@ -192,16 +172,9 @@
       </div>
     
     </div>
-  </div>
-        
-            
+  </div>         
 </section> 
-        
-
 <!----approach---->
-        
-    
-        
             <section class=" section  approach scrollspy" id="approach">
                 
                 <div class="info">
@@ -255,7 +228,7 @@
                 
  setInterval(function autoplay() {
 $('.carousel').carousel('next');
-      }, 1000);
+      }, 3000);
                 
 $('.parallax').parallax();
         });
