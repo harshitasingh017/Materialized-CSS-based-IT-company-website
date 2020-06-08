@@ -1,5 +1,5 @@
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -18,434 +18,521 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    
+
     <title>Materialized CSS Website</title>
-    
+
     <style>
-     
-        
-        .content h5{
-            font-size: 65px;
-            padding-top: 150px;
-            
-        }
-        
-       .card-content .card-title{
-            font-weight: 500;
-           
-        }
-        
-        .services h5{
-            padding-top: 30px;
-            padding-bottom: 30px;
-        }
-        
-        .card{
-            height: 330px;
-        }
-       
-        .process{
-            padding-top: 50px;
-        }
-        
-        .approach{
-             background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/cover.jpg);
-            background-size: cover;
+      .content h5 {
+        font-size: 65px;
+        padding-top: 150px;
+      }
+
+      .card-content .card-title {
+        font-weight: 500;
+      }
+
+      .services h5 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .card {
+        height: 330px;
+      }
+
+      .process {
+        padding-top: 50px;
+      }
+
+      .approach {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+          ),
+          url(images/cover.jpg);
+        background-size: cover;
         background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        
-        .para{
-            font-size: 22px;
-            font-family: cursive;
-        }
-        .para1{
-            font-size: 25px;
-            padding-bottom: 30px;
-        }
-        
-      .methodology .i .iconsicons{
-            height: 50px;
-        }
-        
-        .methodology .methodhead{
-            font-size: 42px;
-            font-weight:500;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            
-        }
-        
-        .methodology .methodtitle{
-           padding-bottom: 20px;
-        }
-        
-        .methodology .methodexp{
-            font-size: 20px;
-        }
-        
-        .contactform{
-            background: url(images/form.jpg);
-        }
-        .contactform .formtitle{
-            padding-top: 90px;
-        }
-        
-        .contactform .simple{
-            font-size: 25px;
-        }
-        
-       
-        
-        @media screen and (max-width: 670px) {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      .para {
+        font-size: 22px;
+        font-family: cursive;
+      }
+      .para1 {
+        font-size: 25px;
+        padding-bottom: 30px;
+      }
+
+      .methodology .i .iconsicons {
+        height: 50px;
+      }
+
+      .methodology .methodhead {
+        font-size: 42px;
+        font-weight: 500;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .methodology .methodtitle {
+        padding-bottom: 20px;
+      }
+
+      .methodology .methodexp {
+        font-size: 20px;
+      }
+
+      .contactform {
+        background: url(images/form.jpg);
+      }
+      .contactform .formtitle {
+        padding-top: 90px;
+      }
+
+      .contactform .simple {
+        font-size: 25px;
+      }
+
+      @media screen and (max-width: 670px) {
         header {
           min-height: 500px;
         }
       }
     </style>
-    
-    </head>
-    
-    <body>
-        
-        <!-- navbar -->
-        <header>
-            <div class="carousel carousel-slider" data-indicators="true">
-    <div class="carousel-item red lighten-2 white-text" href="#one!">
-        <img src="images/back1.jpg">
-      <div class="container">
-        <h1 class="white-text">Materialize Carousel bckscjbsjchhch</h1>
-          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
-      </div>  
-    </div>
-    <div class="carousel-item amber darken-2 white-text" href="#two!">
-        <img src="images/back2.jpg">
-      <div class="container">
-        <h1 class="white-text">Materialize Carousel  bcdcdibc  bckscjbsjchhch</h1>
-          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
-      </div>  
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-        <img src="images/back3.jpg">
-      <div class="container">
-        <h1 class="white-text">Materialize Carousel  three bckscjbsjchhch</h1>
-          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
-      </div>  
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-        <img src="images/back4.jpg">
-      <div class="container">
-        <h1 class="white-text">Materialize Carousel  four bckscjbsjchhch</h1>
-          <a class="btn waves-effect white grey-text darken-text-2" href="https://codepen.io/collection/nbBqgY/" target="_blank">button</a>
-      </div>  
-      </div> 
-        
-         <nav class="navbar-fixed transparent">
-            <div class="container">
-                <a href="#" class="brand-logo">Materialized</a> 
-                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#approach">Approach</a></li>
-                    <li><a href="#methodology">Methodology</a></li>
-                    <li><a href="#contact">Contact</a></li> 
-                </ul>
-                <ul class="sidenav grey lighten-2" id="mobile-menu">
-                <li><a href="#">Services</a></li>
-                    <li><a href="#">Approach</a></li>
-                    <li><a href="#">Methodology</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            </nav>
-    </div>
-        </header>
-        
- <!----services---->  
-        <section class="services" id="services">
-        <div class="container">
-    <h5 class=" center-align pink-text darken-3">Full-cycle services that cover every aspect of software engineering.</h5>
-    <div class="row">
-      <div class="col s12 l4 center-align">
-        <div class="card grey lighten-5">
-          <div class="card-icon blue-text">
-            <i class=" large material-icons">desktop_windows</i>
-          </div>
-           
-            <div class="card-content ">
-            <span class="card-title center-align ">Fully Responsive Website</span>
-            <p>Responsive Website Designing (RWD) is a new-generation phenomenon for developing web pages that look great and work great at all sizes.</p>
-          </div>
-         </div>
-      </div>
-       <div class="col s12 l4 center-align">
-        <div class="card grey lighten-5">
-          <div class="card-icon blue-text">
-            <i class=" large material-icons">android</i>
-          </div>
-          <div class="card-content ">
-            <span class="card-title center-align">Android Development</span>
-            <p>UI and UX are highly important for the success of any app. Our Android app designers and developers ensure excellent UI designs to enhance user experience.</p>
-          </div>
-        </div>
-      </div>
-     <div class="col s12 l4 center-align">
-        <div class="card grey lighten-5">
-          <div class="card-icon blue-text">
-            <i class="large material-icons">assessment</i>
-          </div>
-          <div class="card-content">
-            <span class="card-title center-align">Digital Mrketing</span>
-            <p>Our well-planned strategized solutions will help to convert you to happy customers thus effectively growing your brand online.</p>
-          </div>
-        </div>
-      </div>
-    
-    </div>
-            
-     <div class="row">
-      <div class="col s12 l4 center-align">
-        <div class="card grey lighten-5">
-          <div class="card-icon blue-text ">
-            <i class=" large material-icons">border_color</i>
-          </div>
-           
-            <div class="card-content ">
-            <span class="card-title center-align ">Website Re-design</span>
-            <p>Redesign to optimize your website. Redesign your website from a marketing perspective to boost your online image, website traffic, leads, ranking and sales.</p>
-          </div>
-         </div>
-      </div>
-       <div class="col s12 l4 center-align">
-        <div class="card grey lighten-5">
-          <div class="card-icon blue-text">
-            <i class=" large material-icons ">devices</i>
-          </div>
-          <div class="card-content ">
-            <span class="card-title center-align">Web Application Development</span>
-            <p>We've produced tailored applications for a broad range of companies, large and small. We've helped to solve their problems and helped them to help their customers.</p>
-          </div>
-        </div>
-      </div>
-     <div class="col s12 l4 center-align">
-        <div class="card grey lighten-5">
-          <div class="card-icon blue-text">
-            <i class="large material-icons">build</i>
-          </div>
-          <div class="card-content">
-            <span class="card-title center-align">Domain Registration & Web Hosting</span>
-            <p>To start you with your business branding initiatives on the Web we provide you low cost Domain name registration and web space..</p>
-          </div>
-        </div>
-      </div>
-    
-    </div>
-  </div>         
-</section> 
-<!----approach---->
-            <section class=" section  approach scrollspy" id="approach">
-                
-                <div class="info">
-                <h1 class="blue-text text-lighten-3 center-align">Our Approach</h1>
-                <p class="white-text center-align para1">We create the <span class="pink-text">technical heart of your product</span> and make processes simple and understandable.</p>
-                </div>
-                
-                <div class="row">
-      <div class="col s12 l4 push-l1">
-          <img src="images/simplicity.jpg" alt="" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1">
-        <h2 class="yellow-text text-darken-4">Simplicity</h2>
-        <p class="white-text para">Product engineering is a complex thing. We organize work processes in a simple and transparent way for all participants. And make them as simple as a strategy doomed to success.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 l4 offset-l1 push-l6">
-          <img src="images/advice.jpg" alt="" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1 pull-l5 right-align">
-        <h2 class="yellow-text text-darken-4">Advisory</h2>
-        <p class="white-text para">We close the gap between solution advisory and product engineering, making development processes simple and easy to follow. Our team figure out all the ‘’hows’’ regarding business models, monetization, and digital transformations.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 l4 push-l1">
-          <img src="images/innovation.jpg" alt="" class="responsive-img materialboxed">
-      </div>
-      <div class="col s12 l6 offset-l1">
-        <h2 class="yellow-text text-darken-4">Innovation</h2>
-        <p class="white-text para">We see a future where all markets are dominated by tech companies and work hard to accelerate this process. We help agile-minded people to succeed in technology challenges.</p>
-      </div>
-    </div>
-  </section>
-        
-<!----Methodology---->
-        
-    <section class="methodology grey lighten-3 scrollspy" id="methodology">
-        <div class="container methodology">
-    <h5 class=" left-align black-text darken-3 methodhead">We Simplify Software Development Process</h5>
-    <div class="row">
-      <div class="col s12 l3 left-align ">
-          <div class="card-icon ">
-            <i class="large material-icons indigo-text methodtitle">radio_button_checked</i>
-          </div>
-           <div class="card-content">
-            <span class="card-title left-align methodexp">Discover</span>
-            <p>We shape brands through exploration, applying in-depth research to challenge assumptions at every turn.</p>
-          </div>
-         </div>
-      
-       <div class="col s12 l3 left-align">
-         <div class="card-icon ">
-            <i class="large material-icons orange-text methodtitle">brush</i>
-          </div>
-          <div class="card-content">
-            <span class="card-title left-align methodexp">Design</span>
-            <p>Our design approach is to simplify. We embrace the joy in creating something unique that is easy for end users.</p>
-          </div>
-        </div>
-        <div class="col s12 l3 left-align">
-          <div class="card-icon">
-            <i class=" large material-icons green-text methodtitle">code</i>
-          </div>
-          <div class="card-content">
-            <span class="card-title left-align methodexp">Build</span>
-            <p>Using modern technologies, we build with efficiency and skill, creating flexible and scalable business-driven solutions.</p>
-          </div>
-        </div> 
-        
-        <div class="col s12 l3 left-align">
-         <div class="card-icon ">
-            <i class="large material-icons blue-text methodtitle">done</i>
-          </div>
-          <div class="card-content">
-            <span class="card-title left-align methodexp">Deliver</span>
-            <p>We take an iterative approach to both our work and our practice, always looking for ways to improve what we do.</p>
-          </div>
-        </div>
-    </div> 
-        
-      </div>        
-   </section> 
-    
-        
- <!-- contact form -->
-        
-        <div class="contactform">
-        <section class="section container scrollspy ">
-    <div class="row">
-      <div class="col s12 l5">
-        <h4 class="indigo-text text-darken-4 formtitle">WANT TO START A PROJECT?</h4>
-       
-        <p class="simple indigo-text lighten-5">It's simple!</p>
-      </div>
-      <div class="col s12 l5 offset-l2 grey lighten-5">
-        <form>
-            <div class="input-field">
-            <i class="material-icons prefix">person</i>
-            <input type="text" id="text">
-            <label for="email">Your Name</label>
-          </div>
-          <div class="input-field">
-            <i class="material-icons prefix">email</i>
-            <input type="email" id="email">
-            <label for="email">Your Email</label>
-          </div>
-          <div class="input-field">
-            <i class="material-icons prefix">message</i>
-            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
-            <label for="message">Project Description</label>
-              
-          </div>
-            
-            <div class="input-field">
-            <i class="material-icons prefix">date_range</i>
-            <input type="text" id="date" class="datepicker">
-            <label for="date">Choose a date you need me for...</label>
-          </div>
-          
-          <div class="input-field center">
-            <button class="btn">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-        
-  </section>
-        </div>
-      
-        <!-- Contact -->
-        
-        <div class="contact">
-        <section class="section container scrollspy " id="contact">
-    <div class="row">
-      <div class="col s12 l5 left-align">
-        <h4 class="Orange-text text-darken-4 ">Connect</h4>
-       
-            <a href="#"><i class="fab fa-facebook size"></i>Facebook</a>
-          <br>
-            <a href="#"><i class="fab fa-twitter "></i>Twitter</a>
-          <br>
-            <a href="#"><i class="fab fa-linkedin "></i>Linkedin</a>
-          <br>
-            <a href="#"><i class="fab fa-instagram "></i>Instagram</a>
-            
-      </div>
-      <div class="col s12 l5 offset-l2 lighten-5">
-         <h4 class="Orange-text text-darken-4 ">Contact</h4>
-               <p>555-555-555</p>
-               <p>email</p>
-               <p>address-street</p>
-               <p>city state pin</p>
-      </div>
-    </div>
-        
-  </section>
-        </div>
-      
-   <footer>
-    <div class="footer-copyright grey ">
-      <div class="container center-align">&copy; 2020 Materialized</div>
-    </div>
-        </footer>
- 
-        
+  </head>
 
+  <body>
+    <!-- Spaces, contact links, carousel content, navbar fixed -->
+    <!-- navbar -->
+    <header>
+      <div
+        class="carousel carousel-slider"
+        data-indicators="true"
+      >
+        <div class="carousel-item red lighten-2 white-text" href="#one!">
+          <img src="images/back1.jpg" />
+          <div class="container">
+            <div class="carousel-content" style="position: absolute; top: 100; z-index: 5">
+              <h1 class="white-text">Materialize Carousel bckscjbsjchhch</h1>
+              <a
+                class="btn waves-effect white grey-text darken-text-2"
+                href="https://codepen.io/collection/nbBqgY/"
+                target="_blank"
+                >button</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item amber darken-2 white-text" href="#two!">
+          <img src="images/back2.jpg" />
+          <div class="container">
+            <div class="carousel-content" style="position: absolute; top: 100; z-index: 5"></div>
+            <h1 class="white-text">
+              Materialize Carousel bcdcdibc bckscjbsjchhch
+            </h1>
+            <a
+              class="btn waves-effect white grey-text darken-text-2"
+              href="https://codepen.io/collection/nbBqgY/"
+              target="_blank"
+              >button</a
+            >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <img src="images/back3.jpg" />
+          <div class="container">
+            <h1 class="white-text">
+              Materialize Carousel three bckscjbsjchhch
+            </h1>
+            <a
+              class="btn waves-effect white grey-text darken-text-2"
+              href="https://codepen.io/collection/nbBqgY/"
+              target="_blank"
+              >button</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <img src="images/back4.jpg" />
+          <div class="container">
+            <h1 class="white-text">Materialize Carousel four bckscjbsjchhch</h1>
+            <a
+              class="btn waves-effect white grey-text darken-text-2"
+              href="https://codepen.io/collection/nbBqgY/"
+              target="_blank"
+              >button</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="navbar-fixed" style="position: fixed; top: 0; ">
+        <nav class="nav-wrapper transparent">
+          <div class="container">
+            <a href="#" class="brand-logo">Materialized</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#services">Services</a></li>
+              <li><a href="#approach">Approach</a></li>
+              <li><a href="#methodology">Methodology</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Approach</a></li>
+              <li><a href="#">Methodology</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!----services---->
+    <section class="services section" id="services">
+      <div class="container">
+        <h5 class="center-align pink-text darken-3">
+          Full-cycle services that cover every aspect of software engineering.
+        </h5>
+        <div class="row">
+          <div class="col s12 l4 center-align">
+            <div class="card grey lighten-5">
+              <div class="card-icon blue-text">
+                <i class="large material-icons">desktop_windows</i>
+              </div>
+
+              <div class="card-content">
+                <span class="card-title center-align"
+                  >Fully Responsive Website</span
+                >
+                <p>
+                  Responsive Website Designing (RWD) is a new-generation
+                  phenomenon for developing web pages that look great and work
+                  great at all sizes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4 center-align">
+            <div class="card grey lighten-5">
+              <div class="card-icon blue-text">
+                <i class="large material-icons">android</i>
+              </div>
+              <div class="card-content">
+                <span class="card-title center-align">Android Development</span>
+                <p>
+                  UI and UX are highly important for the success of any app. Our
+                  Android app designers and developers ensure excellent UI
+                  designs to enhance user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4 center-align">
+            <div class="card grey lighten-5">
+              <div class="card-icon blue-text">
+                <i class="large material-icons">assessment</i>
+              </div>
+              <div class="card-content">
+                <span class="card-title center-align">Digital Mrketing</span>
+                <p>
+                  Our well-planned strategized solutions will help to convert
+                  you to happy customers thus effectively growing your brand
+                  online.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 l4 center-align">
+            <div class="card grey lighten-5">
+              <div class="card-icon blue-text">
+                <i class="large material-icons">border_color</i>
+              </div>
+
+              <div class="card-content">
+                <span class="card-title center-align">Website Re-design</span>
+                <p>
+                  Redesign to optimize your website. Redesign your website from
+                  a marketing perspective to boost your online image, website
+                  traffic, leads, ranking and sales.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4 center-align">
+            <div class="card grey lighten-5">
+              <div class="card-icon blue-text">
+                <i class="large material-icons">devices</i>
+              </div>
+              <div class="card-content">
+                <span class="card-title center-align"
+                  >Web Application Development</span
+                >
+                <p>
+                  We've produced tailored applications for a broad range of
+                  companies, large and small. We've helped to solve their
+                  problems and helped them to help their customers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4 center-align">
+            <div class="card grey lighten-5">
+              <div class="card-icon blue-text">
+                <i class="large material-icons">build</i>
+              </div>
+              <div class="card-content">
+                <span class="card-title center-align"
+                  >Domain Registration & Web Hosting</span
+                >
+                <p>
+                  To start you with your business branding initiatives on the
+                  Web we provide you low cost Domain name registration and web
+                  space..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----approach---->
+    <section class="approach scrollspy" id="approach">
+      <div class="info">
+        <h1 class="blue-text text-lighten-3 center-align">Our Approach</h1>
+        <p class="white-text center-align para1">
+          We create the
+          <span class="pink-text">technical heart of your product</span> and
+          make processes simple and understandable.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col s12 l4 push-l1">
+          <img
+            src="images/simplicity.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="yellow-text text-darken-4">Simplicity</h2>
+          <p class="white-text para">
+            Product engineering is a complex thing. We organize work processes
+            in a simple and transparent way for all participants. And make them
+            as simple as a strategy doomed to success.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 offset-l1 push-l6">
+          <img
+            src="images/advice.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1 pull-l5 right-align">
+          <h2 class="yellow-text text-darken-4">Advisory</h2>
+          <p class="white-text para">
+            We close the gap between solution advisory and product engineering,
+            making development processes simple and easy to follow. Our team
+            figure out all the ‘’hows’’ regarding business models, monetization,
+            and digital transformations.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l1">
+          <img
+            src="images/innovation.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="yellow-text text-darken-4">Innovation</h2>
+          <p class="white-text para">
+            We see a future where all markets are dominated by tech companies
+            and work hard to accelerate this process. We help agile-minded
+            people to succeed in technology challenges.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!----Methodology---->
+
+    <section class="methodology grey lighten-3 scrollspy" id="methodology">
+      <div class="container methodology">
+        <h5 class="left-align black-text darken-3 methodhead">
+          We Simplify Software Development Process
+        </h5>
+        <div class="row">
+          <div class="col s12 l3 left-align">
+            <div class="card-icon">
+              <i class="large material-icons indigo-text methodtitle"
+                >radio_button_checked</i
+              >
+            </div>
+            <div class="card-content">
+              <span class="card-title left-align methodexp">Discover</span>
+              <p>
+                We shape brands through exploration, applying in-depth research
+                to challenge assumptions at every turn.
+              </p>
+            </div>
+          </div>
+
+          <div class="col s12 l3 left-align">
+            <div class="card-icon">
+              <i class="large material-icons orange-text methodtitle">brush</i>
+            </div>
+            <div class="card-content">
+              <span class="card-title left-align methodexp">Design</span>
+              <p>
+                Our design approach is to simplify. We embrace the joy in
+                creating something unique that is easy for end users.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 l3 left-align">
+            <div class="card-icon">
+              <i class="large material-icons green-text methodtitle">code</i>
+            </div>
+            <div class="card-content">
+              <span class="card-title left-align methodexp">Build</span>
+              <p>
+                Using modern technologies, we build with efficiency and skill,
+                creating flexible and scalable business-driven solutions.
+              </p>
+            </div>
+          </div>
+
+          <div class="col s12 l3 left-align">
+            <div class="card-icon">
+              <i class="large material-icons blue-text methodtitle">done</i>
+            </div>
+            <div class="card-content">
+              <span class="card-title left-align methodexp">Deliver</span>
+              <p>
+                We take an iterative approach to both our work and our practice,
+                always looking for ways to improve what we do.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact form -->
+    <section class="section contactform scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l5">
+            <h4 class="indigo-text text-darken-4 formtitle">
+              WANT TO START A PROJECT?
+            </h4>
+
+            <p class="simple indigo-text lighten-5">It's simple!</p>
+          </div>
+          <div class="col s12 l5 offset-l2 grey lighten-5">
+            <form>
+              <div class="input-field">
+                <i class="material-icons prefix">person</i>
+                <input type="text" id="text" />
+                <label for="email">Your Name</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email" />
+                <label for="email">Your Email</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea
+                  id="message"
+                  class="materialize-textarea"
+                  cols="20"
+                  rows="20"
+                ></textarea>
+                <label for="message">Project Description</label>
+              </div>
+
+              <div class="input-field">
+                <i class="material-icons prefix">date_range</i>
+                <input type="text" id="date" class="datepicker" />
+                <label for="date">Choose a date you need me for...</label>
+              </div>
+
+              <div class="input-field center">
+                <button class="btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5 left-align">
+          <h4 class="orange-text text-darken-4">Connect</h4>
+          <a href="#"><i class="fab fa-facebook size" style="height: 100px; width: 100px"></i>Facebook</a>
+          <br />
+          <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+          <br />
+          <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+          <br />
+          <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+        </div>
+        <div class="col s12 l5 offset-l2 lighten-5">
+          <h4 class="orange-text text-darken-4">Contact</h4>
+          <p>555-555-555</p>
+          <p>email</p>
+          <p>address-street</p>
+          <p>city state pin</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-copyright grey">
+        <div class="container center-align">&copy; 2020 Materialized</div>
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-        <script>$(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.carousel').carousel(
-  {
-    dist: 0,
-    padding: 0,
-    fullWidth: true,
-    indicators: true,
-  }
-  );
-                
- setInterval(function autoplay() {
-$('.carousel').carousel('next');
-      }, 3000);
-                
-$('.parallax').parallax();
- $('.datepicker').datepicker({
-            disableWeekends: true
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".carousel").carousel({
+          dist: 0,
+          padding: 0,
+          fullWidth: true,
+          indicators: true,
         });
-$('.scrollspy').scrollSpy();
+
+        setInterval(function autoplay() {
+          $(".carousel").carousel("next");
+        }, 10000);
+
+        $(".parallax").parallax();
+        $(".datepicker").datepicker({
+          disableWeekends: true,
         });
-        
-/**autoplay()   
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
-}**/
-        </script>
-         
-    </body>
+        $(".scrollspy").scrollSpy();
+      });
+    </script>
+  </body>
 </html>
